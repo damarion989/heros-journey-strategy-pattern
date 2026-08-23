@@ -15,6 +15,7 @@ stored as a field, and it delegates to that object whenever performMove()
 is called
 
 ##Phase 3
+
 Switching the Dragon's movement strategy at runtime was surprisingly 
 simple — it only took one line of code, dragon.setMovementStrategy(new 
 FlyMove()), to completely change how the hero behaved, and the Hero 
