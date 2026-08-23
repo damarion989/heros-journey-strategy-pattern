@@ -14,7 +14,7 @@ baked into the class itself. Now, a Hero simply HAS a movement strategy
 stored as a field, and it delegates to that object whenever performMove() 
 is called
 
-##Phase 3
+## Phase 3
 
 Switching the Dragon's movement strategy at runtime was surprisingly 
 simple — it only took one line of code, dragon.setMovementStrategy(new 
